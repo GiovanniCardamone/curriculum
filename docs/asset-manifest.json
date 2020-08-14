@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f361e03.chunk.css",
-    "main.js": "/static/js/main.cf1c2f93.chunk.js",
-    "main.js.map": "/static/js/main.cf1c2f93.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a5306fb7.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a5306fb7.js.map",
-    "static/js/2.4253362a.chunk.js": "/static/js/2.4253362a.chunk.js",
-    "static/js/2.4253362a.chunk.js.map": "/static/js/2.4253362a.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.f9b8106803904cc930300f4b57967608.js": "/precache-manifest.f9b8106803904cc930300f4b57967608.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.4253362a.chunk.js.LICENSE.txt": "/static/js/2.4253362a.chunk.js.LICENSE.txt"
+    "main.css": "https://giovannicardamone.github.io/curriculum/static/css/main.5f361e03.chunk.css",
+    "main.js": "https://giovannicardamone.github.io/curriculum/static/js/main.cf1c2f93.chunk.js",
+    "main.js.map": "https://giovannicardamone.github.io/curriculum/static/js/main.cf1c2f93.chunk.js.map",
+    "runtime-main.js": "https://giovannicardamone.github.io/curriculum/static/js/runtime-main.c280a9bb.js",
+    "runtime-main.js.map": "https://giovannicardamone.github.io/curriculum/static/js/runtime-main.c280a9bb.js.map",
+    "static/js/2.4253362a.chunk.js": "https://giovannicardamone.github.io/curriculum/static/js/2.4253362a.chunk.js",
+    "static/js/2.4253362a.chunk.js.map": "https://giovannicardamone.github.io/curriculum/static/js/2.4253362a.chunk.js.map",
+    "index.html": "https://giovannicardamone.github.io/curriculum/index.html",
+    "precache-manifest.6381e7c6f749cd8778310950380c484c.js": "https://giovannicardamone.github.io/curriculum/precache-manifest.6381e7c6f749cd8778310950380c484c.js",
+    "service-worker.js": "https://giovannicardamone.github.io/curriculum/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "https://giovannicardamone.github.io/curriculum/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.4253362a.chunk.js.LICENSE.txt": "https://giovannicardamone.github.io/curriculum/static/js/2.4253362a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a5306fb7.js",
+    "static/js/runtime-main.c280a9bb.js",
     "static/js/2.4253362a.chunk.js",
     "static/css/main.5f361e03.chunk.css",
     "static/js/main.cf1c2f93.chunk.js"
