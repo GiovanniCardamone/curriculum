@@ -1,15 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
-    'Droid Sans', 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  background: #333;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  background: #fafafa;
+  font-family: 'GT America';
 }
 
 .papers {
@@ -26,8 +18,8 @@ code {
   margin: calc(100 / 62 * 1vh) calc(100 / 62 * 1vh);
   border: 1px #d3d3d3 solid;
 
-  background: white;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  box-shadow: #888 0 6px 6px -3px;
 }
 
 .printButton {
@@ -47,6 +39,11 @@ code {
 }
 
 @media print {
+  .papers {
+    display: inline-block;
+    flex-wrap: wrap;
+  }
+
   .page {
     margin: 0;
     border: initial;
@@ -56,6 +53,8 @@ code {
     box-shadow: initial;
     background: initial;
     page-break-after: always;
+    width: 21cm;
+    height: 29.7cm;
   }
 
   .printButton {

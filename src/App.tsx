@@ -13,8 +13,9 @@ import ThirdPage from './pages/ThirdPage'
 function App() {
   return (
     <div className='App'>
-      <Papers papers={[<FirstPage />, <SecondPage />, <ThirdPage />]} />
-      <PrintButton onClick={() => {}} />
+      current in development! Hang on :)
+      {/* <Papers papers={[<FirstPage />, <SecondPage />, <ThirdPage />]} />
+      <PrintButton onClick={() => {}} /> */}
     </div>
   )
 }

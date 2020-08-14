@@ -1,0 +1,118 @@
+$background: #1d1e1f;
+$contrast: #292b2c;
+
+.firstpage {
+  display: flex;
+  flex-direction: rows;
+  height: 100%;
+}
+
+.firstpage--leftside {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  background: $background;
+  border-right: 1pt solid $background;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+
+  .avatar-container {
+    margin: 10%;
+    padding-bottom: 5%;
+    border-bottom: 1pt solid $contrast;
+    flex-grow: 0;
+
+    .avatar {
+      width: 100%;
+
+      box-sizing: border-box;
+      border-radius: 50%;
+      border: 10px solid $contrast;
+    }
+
+    .name {
+      color: white;
+      margin-top: 10%;
+
+      font-size: 150%;
+    }
+  }
+
+  .skillprogress-container {
+    display: block;
+    flex-grow: 1;
+    margin: 0 5%;
+  }
+
+  .contact-container {
+    background: white;
+  }
+}
+
+.firstpage--rightside {
+  width: 70%;
+}
+
+.progress {
+  position: relative;
+  width: 100%;
+  height: 3.5%;
+  margin-top: 5%;
+  background: white;
+
+  .clear-text {
+    background: white;
+    padding: 0 2pt;
+    margin-left: -2pt;
+
+    white-space: nowrap;
+  }
+
+  .center-text {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    font-size: 0.5rem;
+  }
+  .language {
+    left: 0%;
+  }
+
+  .percentage {
+    right: 3%;
+  }
+}
+
+.progress-arrow {
+  height: 100%;
+  background: green;
+}
+
+.arrow-head {
+  position: 50;
+  width: 0;
+  height: 0;
+  border-top: 50% solid transparent;
+  border-bottom: 50% solid transparent;
+
+  border-left: 50% solid green;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+
+  .type {
+    display: inline;
+    border-bottom: 1px solid $contrast;
+  }
+
+  .text {
+    font-size: 0.75rem;
+  }
+}
