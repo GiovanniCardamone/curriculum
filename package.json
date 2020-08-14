@@ -15,6 +15,7 @@
     "react-scripts": "3.4.3",
     "typescript": "^3.7.5"
   },
+  "homepage": "https://giovannicardamone.github.io/curriculum",
   "scripts": {
     "start": "react-scripts start",
     "build": "PUBLIC_URL=https://giovannicardamone.github.io/curriculum react-scripts build",
