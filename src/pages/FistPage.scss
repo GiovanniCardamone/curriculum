@@ -19,10 +19,13 @@ $contrast: #292b2c;
   flex-direction: column;
 
   .avatar-container {
+    height: 30%;
     margin: 10%;
-    padding-bottom: 5%;
+
     border-bottom: 1pt solid $contrast;
     flex-grow: 0;
+    display: flex;
+    flex-direction: column;
 
     .avatar {
       width: 100%;
@@ -33,8 +36,10 @@ $contrast: #292b2c;
     }
 
     .name {
+      display: flex;
+      flex-grow: 1;
+      align-items: center;
       color: white;
-      margin-top: 10%;
 
       font-size: 150%;
     }
@@ -43,7 +48,7 @@ $contrast: #292b2c;
   .skillprogress-container {
     display: block;
     flex-grow: 1;
-    margin: 0 5%;
+    margin: 0 5% 0 7%;
   }
 
   .contact-container {
@@ -55,19 +60,35 @@ $contrast: #292b2c;
   width: 70%;
 }
 
+@media print {
+  .progress {
+    height: 18pt !important;
+  }
+}
+
 .progress {
   position: relative;
   width: 100%;
-  height: 3.5%;
+  height: 15pt;
   margin-top: 5%;
   background: white;
 
+  .static-size-1 {
+    width: 45%;
+  }
+
+  .static-size-2 {
+    width: 18.5%;
+  }
+
   .clear-text {
+    box-sizing: border-box;
     background: white;
     padding: 0 2pt;
     margin-left: -2pt;
-
+    width: 100%;
     white-space: nowrap;
+    border: 1pt solid $contrast;
   }
 
   .center-text {
@@ -79,18 +100,18 @@ $contrast: #292b2c;
     bottom: 0;
     font-size: 0.5rem;
   }
+
   .language {
-    left: 0%;
+    left: -2.5%;
   }
 
   .percentage {
-    right: 3%;
+    right: 0.5%;
   }
 }
 
 .progress-arrow {
   height: 100%;
-  background: green;
 }
 
 .arrow-head {
