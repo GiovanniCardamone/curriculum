@@ -1,17 +1,34 @@
-import React, { JSXElementConstructor } from 'react'
+import React from 'react'
+import { makeStyles } from '@material-ui/core'
+
 import PageA4 from './PageA4'
 
 interface PapersProp {
-  papers: JSX.Element | JSX.Element[]
+  children: JSX.Element | JSX.Element[]
 }
 
-export default function Papers({ papers }: PapersProp) {
+const useStyles = makeStyles({
+  root: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    width: '100%',
+    padding: 0,
+    ['@media print']: {
+      width: '270mm',
+    },
+  },
+})
+
+export default function Papers({ children }: PapersProp) {
+  const classes = useStyles()
+
   return (
-    <div className='papers'>
-      {Array.isArray(papers) ? (
-        papers.map((paper, index) => <PageA4 key={index}>{paper}</PageA4>)
+    <div className={classes.root}>
+      {Array.isArray(children) ? (
+        children.map((c, index) => <PageA4 key={index}>{c}</PageA4>)
       ) : (
-        <PageA4>{papers}</PageA4>
+        <PageA4>{children}</PageA4>
       )}
     </div>
   )

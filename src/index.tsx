@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import './extensions'
+
 import './index.scss'
 import './font.scss'
 import App from './App'

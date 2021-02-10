@@ -2,67 +2,12 @@ body {
   margin: 0;
   background: #fafafa;
   font-family: 'GT America';
-}
 
-.papers {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  padding: 0;
-}
-
-.page {
-  width: calc(100 / 31 * 21vh);
-  height: calc(100 / 31 * 29.7vh);
-  margin: calc(100 / 62 * 1vh) calc(100 / 62 * 1vh);
-  border: 1px #d3d3d3 solid;
-
-  background: #fff;
-  box-shadow: #888 0 6px 6px -3px;
-}
-
-.printButton {
-  position: fixed;
-  right: 1vw;
-  bottom: 1vh;
-
-  background: #fff;
-  cursor: pointer;
-  outline: none;
-  font-size: 1em;
+  font-size: 13pt;
 }
 
 @page {
   size: A4;
-  margin: 0;
-}
-
-@media print {
-  .papers {
-    display: inline-block;
-    flex-wrap: wrap;
-  }
-
-  .page {
-    margin: 0;
-    border: initial;
-    border-radius: initial;
-    width: initial;
-    min-height: initial;
-    box-shadow: initial;
-    background: initial;
-    page-break-after: always;
-    width: 21cm;
-    height: 29.7cm;
-  }
-
-  .printButton {
-    display: none;
-  }
-}
-
-.section-title {
-  font-size: 30pt;
-  font-size-adjust: 1;
+  size: 210mm 296mm;
+  margin: -7mm;
 }

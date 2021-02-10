@@ -1,6 +1,5 @@
-import PageA4 from '../components/PageA4'
-
 import React from 'react'
+import Translate from '../components/Translate'
 
 import './FistPage.scss'
 
@@ -36,6 +35,14 @@ export default function FirstPage({}: FirstPageProp) {
       </div>
 
       <div className='firstpage--rightside'>
+        <span className='data-table'>
+          <div>
+            <span>
+              <Translate t='nome' to='titlecase' />
+            </span>
+            <span>Giovanni</span>
+          </div>
+        </span>
         <span className='section-title'>Bio</span>
       </div>
     </div>
@@ -76,7 +83,6 @@ function SkillProgress({ language, progress }: SkillProgressProp) {
       </div>
 
       <div className='progress-arrow' style={{ width: progress + '%', backgroundColor: progressColor() }}></div>
-      <div className='arrow-head' style={{ width: progress + '%' }}></div>
     </div>
   )
 }
