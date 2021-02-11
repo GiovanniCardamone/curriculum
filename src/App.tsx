@@ -15,7 +15,6 @@ function App() {
       <Papers>
         <FirstPage />
         <SecondPage />
-        <ThirdPage />
       </Papers>
 
       <WindowControls>

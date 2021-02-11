@@ -14,7 +14,7 @@ const useStyles = makeStyles({
     background: '#fff',
     boxShadow: `#888 0 6px 6px -3px`,
     ['@media print']: {
-      background: '#000',
+      background: '#ffffff',
       boxShadow: 'none',
       border: '1px solid black',
       pageBreakAfter: 'always',

@@ -14,9 +14,7 @@ const useStyles = makeStyles({
     justifyContent: 'center',
     width: '100%',
     padding: 0,
-    ['@media print']: {
-      width: '270mm',
-    },
+    background: 'white',
   },
 })
 
