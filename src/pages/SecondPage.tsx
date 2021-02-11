@@ -149,7 +149,7 @@ const useStylesSecondPage = makeStyles((theme) => ({
     width: '100%',
     height: '40%',
     boxSizing: 'border-box',
-    padding: '0 1em',
+    padding: '0 16px',
   },
   profileTop: {
     width: '100%',
@@ -167,7 +167,7 @@ const useStylesSecondPage = makeStyles((theme) => ({
   },
   profileText: {
     display: 'block',
-    margin: '0.1em 0',
+    margin: '1.6px 0',
   },
   profileTopRight: {
     width: '40%',
@@ -192,7 +192,7 @@ const useStylesSecondPage = makeStyles((theme) => ({
     flexGrow: 1,
     display: 'flex',
     flexDirection: 'column',
-    padding: '1em',
+    padding: '16px',
   },
 }))
 
@@ -613,8 +613,8 @@ const useStylesTile = makeStyles((theme) => ({
     flexDirection: 'column',
     boxSizing: 'border-box',
     height: '100%',
-    padding: '1em',
-    paddingBottom: '0.5em',
+    padding: '22px',
+    paddingBottom: '8px',
     alignItems: 'start',
     borderLeft: `1px solid ${theme.palette.primary.main}`,
   },
@@ -626,9 +626,9 @@ const useStylesTile = makeStyles((theme) => ({
     verticalAlign: 'bottom',
     alignItems: 'flex-end',
     justifyContent: 'center',
-    fontSize: '0.8em',
+    fontSize: '10.8px',
     ['@media print']: {
-      fontSize: '1.2em',
+      fontSize: '19.2px',
     },
   },
   grow: {
@@ -636,10 +636,10 @@ const useStylesTile = makeStyles((theme) => ({
   },
   img: {
     boxSizing: 'border-box',
-    padding: '0.1em',
+    padding: '2px',
     width: '100%',
     ['@media print']: {
-      padding: '0.4em',
+      padding: '2.4px',
     },
   },
 }))
@@ -649,7 +649,7 @@ function Tile({ name, width, children }: TileProps) {
 
   return (
     <div className={classes.root} style={{ width: `${width}%` }}>
-      <span className={classes.title} style={{ fontSize: `${width / 20}em` }}>
+      <span className={classes.title} style={{ fontSize: `${width}px` }}>
         {name}
       </span>
       <div className={classes.grow}></div>

@@ -13,7 +13,7 @@ const useStyles = makeStyles({
     background: '#fff',
     cursor: 'pointer',
     outline: 'none',
-    fontSize: '1em',
+    fontSize: '16px',
   },
 })
 

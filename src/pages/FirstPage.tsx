@@ -64,21 +64,21 @@ const useStylesFirstPage = makeStyles((theme) => ({
     display: 'block',
     height: '5%',
     boxSizing: 'border-box',
-    paddingTop: '1.3em',
-    fontSize: '0.7em',
+    paddingTop: '20.8px',
+    fontSize: '11.2px',
     textAlign: 'center',
     alignItems: 'center',
     justifyContent: 'center',
     color: theme.palette.primary.contrastText,
     ['@media print']: {
-      fontSize: '1em',
+      fontSize: '16px',
       color: theme.palette.common.black,
     },
   },
   avatar: {
     width: '100%',
     height: '21.3%',
-    padding: '1em',
+    padding: '16px',
     boxSizing: 'border-box',
     borderRadius: '50%',
   },
@@ -87,8 +87,8 @@ const useStylesFirstPage = makeStyles((theme) => ({
     display: 'block',
     height: '5%',
     boxSizing: 'border-box',
-    paddingTop: '0.3em',
-    fontSize: '1.5em',
+    paddingTop: '4.8px',
+    fontSize: '24px',
     textAlign: 'center',
     alignItems: 'center',
     justifyContent: 'center',
@@ -101,7 +101,7 @@ const useStylesFirstPage = makeStyles((theme) => ({
     flexGrow: 1,
     width: '100%',
     boxSizing: 'border-box',
-    padding: '0.7em 0.7em',
+    padding: '11.2px 11.2px',
     paddingLeft: '0',
     display: 'flex',
     flexDirection: 'column',
@@ -134,7 +134,7 @@ const useStylesFirstPage = makeStyles((theme) => ({
     display: 'flex',
     flexGrow: 1,
     flexDirection: 'column',
-    padding: '1em',
+    padding: '16px',
     boxSizing: 'border-box',
   },
   rightBottom: {
@@ -267,7 +267,7 @@ export default function FirstPage({}: FirstPageProp) {
           <Quote>
             Programming is the best way to express yourself. Code it!
           </Quote>
-          <Quote marginTop='2em'>
+          <Quote marginTop='32px'>
             Da sempre appassionato dell'informatica e dell'open source dedico
             quasi tutto il mio tempo libero ad essa, adoro apprendere nuove
             tecnologie e studiare nuovi paradigmi di programmazione.
@@ -352,15 +352,15 @@ const useStylesRoadmap = makeStyles((theme) => ({
     verticalAlign: 'baseline',
   },
   title: {
-    fontSize: '0.9em',
+    fontSize: '14.4px',
     ['@media print']: {
-      fontSize: '1.8em',
+      fontSize: '28.8px',
     },
   },
   time: {
-    fontSize: '0.6em',
+    fontSize: '9.6px',
     ['@media print']: {
-      fontSize: '1.2em',
+      fontSize: '19.2px',
     },
   },
   track: {
@@ -403,10 +403,10 @@ const useStylesRoadmapTrack = makeStyles((theme) => ({
     display: 'block',
     margin: 0,
     textAlign: 'start',
-    fontSize: '1em',
+    fontSize: '16px',
     ['@media print']: {
-      fontSize: '1.2em',
-      margin: '0.4em 0',
+      fontSize: '19.2px',
+      margin: '6.4px 0',
     },
   },
 }))
@@ -450,7 +450,7 @@ const useStylesSkillProgress = makeStyles((theme) => ({
   language: {
     position: 'absolute',
     boxSizing: 'border-box',
-    fontSize: '0.5em',
+    fontSize: '8px',
     top: '20%',
     bottom: '20%',
     left: '-3%',
@@ -461,7 +461,7 @@ const useStylesSkillProgress = makeStyles((theme) => ({
     alignItems: 'center',
     justifyContent: 'center',
     ['@media print']: {
-      fontSize: '0.7em',
+      fontSize: '11.2px',
     },
   },
   value: {

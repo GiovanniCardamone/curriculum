@@ -10,10 +10,10 @@ const useStyles = makeStyles((theme) => ({
     display: 'block',
     alignSelf: 'start',
     justifySelf: 'start',
-    fontSize: '0.7em',
+    fontSize: '11.2px',
     ['@media print']: {
-      fontSize: '1em',
-      lineHeight: '1.45em',
+      fontSize: '16px',
+      lineHeight: '23.2px',
     },
   },
 }))

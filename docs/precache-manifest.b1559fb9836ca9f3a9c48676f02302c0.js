@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1f28cf2c456973e341ef627c7c1b93b",
+    "revision": "ab72fb899096f7f31abb1ddfe63bc01c",
     "url": "https://giovannicardamone.github.io/curriculum/index.html"
   },
   {
-    "revision": "a272fd0fd55c02c2b5fa",
+    "revision": "f17444ba5d17622ef8c8",
     "url": "https://giovannicardamone.github.io/curriculum/static/css/main.8d8874af.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://giovannicardamone.github.io/curriculum/static/js/2.98c5fa69.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a272fd0fd55c02c2b5fa",
-    "url": "https://giovannicardamone.github.io/curriculum/static/js/main.0467ac6c.chunk.js"
+    "revision": "f17444ba5d17622ef8c8",
+    "url": "https://giovannicardamone.github.io/curriculum/static/js/main.ceac3f1f.chunk.js"
   },
   {
     "revision": "3c6b4d3e35a33dc549d0",
